@@ -47,7 +47,7 @@ public class Employee {
 		sb.append(", Email: ");
 		sb.append(email);
 		sb.append(", Salary R$ ");
-		sb.append(String.format("$.2f", salary));
+		sb.append(String.format("%.2f", salary));
 		return sb.toString();
 	}
 	
